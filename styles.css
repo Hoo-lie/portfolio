@@ -190,6 +190,13 @@ nav a:hover {
   position: relative;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   font-family: "Pompiere", sans-serif;
+  max-height: 80vh;   /* 80% de la hauteur de l’écran */
+  overflow-y: auto;
+}
+
+.modal::-webkit-scrollbar-track {
+  background: #8b1c2d;
+  border-radius: 10px;
 }
 
 .modal p {
