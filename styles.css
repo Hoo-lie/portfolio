@@ -317,6 +317,17 @@ hr {
     margin-left: 50px;
 }
 
+.lien-desc {
+    text-decoration: none;
+    color: rgb(194, 61, 61);
+}
+
+.lien-desc:hover {
+    transform: scale(1.4);
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 0 7px rgb(255, 82, 82);
+    color: rgb(194, 61, 61);
+}
 
 
 
