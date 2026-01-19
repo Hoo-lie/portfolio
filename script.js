@@ -7,6 +7,7 @@ const openBtns2 = document.querySelectorAll(".open-modal2");
 const closeBtn = document.getElementById("closeModal");
 const closeBtn2 = document.getElementById("closeModal2");
 
+
   openBtns.forEach(btn => {
     btn.addEventListener("click", () => {
       modal.style.display = "flex";
@@ -63,6 +64,21 @@ containers.forEach(container => {
   });
 });
 
+// modale site
 
+  openBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      modal.style.display = "flex";
+    });
+  });
 
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
 
