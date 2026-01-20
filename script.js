@@ -81,4 +81,3 @@ containers.forEach(container => {
       modal.style.display = "none";
     }
   });
-
