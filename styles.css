@@ -6,7 +6,7 @@
 
 .bg-index {
     background-image: url(img/bg_portfolio.png);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     background-position: center -200px;
@@ -26,30 +26,31 @@ body {
 
 
 
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-  font-size: 4rem;
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 0 0 6px black;
-  color: #FFF1C2;
+    font-size: 4rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 6px black;
+    color: #FFF1C2;
 }
 
 .deborah {
-  font-size: 8rem;
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  font-family: "Barrio", sans-serif;
-  color: #a32222;
-  text-shadow: 0 0 9px rgb(187, 15, 15);
+    font-size: 8rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barrio", sans-serif;
+    color: #a32222;
+    text-shadow: 0 0 9px rgb(187, 15, 15);
 }
 
 
@@ -81,7 +82,7 @@ h1 {
 } */
 
 .main-page img {
-    width: 360px;       
+    width: 360px;
     max-width: 100%;
     height: auto;
     display: block;
@@ -106,7 +107,7 @@ h1 {
 .bg-dessins {
     background-image: url(img/muraille_dessin.png);
     font-family: "Barrio", sans-serif;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     background-position: center top;
@@ -140,7 +141,8 @@ nav div {
 }
 
 
-.navkid1,button{
+.navkid1,
+button {
     background-color: #7C1824;
     color: white;
     text-align: center;
@@ -152,7 +154,8 @@ nav div {
     font-size: 0.9rem;
 }
 
-.navkid2,.navkid3 {
+.navkid2,
+.navkid3 {
     color: black;
 }
 
@@ -163,13 +166,14 @@ nav a:hover {
 
 
 .navkid1:hover {
-    background-color:  rgb(3, 220, 119);
+    background-color: rgb(3, 220, 119);
     color: rgb(0, 0, 0);
 }
 
 
 
-.navkid3:hover, .navkid2:hover {
+.navkid3:hover,
+.navkid2:hover {
     color: #8b1c2d;
 }
 
@@ -177,34 +181,35 @@ nav a:hover {
 
 /* Overlay */
 .modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
 /* Contenu */
 .modal {
-  background: #fffbe6;
-  padding: 30px;
-  max-width: 600px;
-  width: 90%;
-  font-size: 1.3em;
-  font-weight: 600;
-  border-radius: 8px;
-  position: relative;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-  font-family: "Pompiere", sans-serif;
-  max-height: 80vh;   /* 80% de la hauteur de l’écran */
-  overflow-y: auto;
+    background: #fffbe6;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    font-family: "Pompiere", sans-serif;
+    max-height: 80vh;
+    /* 80% de la hauteur de l’écran */
+    overflow-y: auto;
 }
 
 .modal::-webkit-scrollbar-track {
-  background: #8b1c2d;
-  border-radius: 10px;
+    background: #8b1c2d;
+    border-radius: 10px;
 }
 
 .modal p {
@@ -213,28 +218,28 @@ nav a:hover {
 
 /* Bouton fermer */
 .modal-close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  border: none;
-  background: #8b1c2d;
-  font-size: 20px;
-  cursor: pointer;
-  width: 10%;
-  padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: #8b1c2d;
+    font-size: 20px;
+    cursor: pointer;
+    width: 10%;
+    padding: 10px;
 }
 
 
 
 /* Bouton ouvrir */
 .btn-modal {
-  padding: 10px 18px;
-  background: #8b1c2d;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Barrio", sans-serif;
+    padding: 10px 18px;
+    background: #8b1c2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Barrio", sans-serif;
 
 }
 
@@ -245,7 +250,7 @@ button:hover {
 
 /* Image cliquable */
 .open-modal {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -301,7 +306,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #8b1c2d;
-    box-shadow: 0 0 14px 5px  rgb(28, 28, 28);
+    box-shadow: 0 0 14px 5px rgb(28, 28, 28);
     /* padding: 10px; */
     background-color: rgb(214, 196, 196);
     width: 100%;
@@ -316,7 +321,7 @@ hr {
     transform: translate(10px) rotate(3deg);
     transform-origin: 0 -10px;
     transition: 0.3s all ease-in-out;
-    background-color: rgb(47, 40, 40); 
+    background-color: rgb(47, 40, 40);
     color: #fff;
 }
 
@@ -350,7 +355,7 @@ hr {
 .bg-sites {
     background-image: url(img/bg-sites.png);
     font-family: "Barrio", sans-serif;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     background-position: center;
@@ -358,7 +363,7 @@ hr {
 
 .ordi-container {
     background-image: url("img/ecran_lit.png");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     position: relative;
@@ -382,12 +387,12 @@ hr {
     align-items: center;
     padding: 10px;
     position: absolute;
-    inset: 0; 
+    inset: 0;
 }
 
 .page-site {
     background-image: url("img/page-site.png");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     position: relative;
@@ -436,7 +441,7 @@ footer {
 
 .footer-content {
     position: absolute;
-    inset: 0; 
+    inset: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -458,14 +463,148 @@ footer a:hover {
 }
 
 
+
+/* mairie */
+.bg-me {
+    background-image: url(img/bg_mairie.png);
+    font-family: "Barrio", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center bottom;
+}
+
+
+
+
+.me-explain-1 {
+    padding: 50px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: rgb(214, 196, 196); */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    font-family: "Pompiere", sans-serif;
+    font-weight: bold;
+    /* margin-bottom: 200px; */
+    grid-column: 1;
+    grid-row: 1 / 3;
+    margin-left: 20px;
+    background-blend-mode: soft-light;
+    font-size: 1.4rem;
+    background-image: url("img/feuille_me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center -50px;
+}
+
+.me-explain-2 {
+    padding: 50px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: rgb(214, 196, 196); */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    font-family: "Pompiere", sans-serif;
+    font-weight: bold;
+    /* margin-bottom: 200px; */
+    grid-column: 2;
+    grid-row: 1 / 3;
+    margin-left: 20px;
+    background-blend-mode: soft-light;
+    font-size: 1.4rem;
+    background-image: url("img/feuille_me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center -50px;
+}
+
+.testimony-one {
+    padding: 50px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: rgb(214, 196, 196); */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    font-family: "Pompiere", sans-serif;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+    grid-column: 1;
+    grid-row: 4 / 4;
+    margin-left: 20px;
+    background-blend-mode: soft-light;
+    font-size: 1.4rem;
+    background-image: url("img/feuille_me_pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center -50px;
+    margin-top: 20px;
+}
+
+.testimony-two {
+    padding: 50px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: rgb(214, 196, 196); */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    font-family: "Pompiere", sans-serif;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+    grid-column: 2;
+    grid-row: 4 / 4;
+    margin-left: 20px;
+    background-blend-mode: soft-light;
+    font-size: 1.4rem;
+    background-image: url("img/feuille_me_pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center -50px;
+    margin-top: 20px;
+}
+
+.me-container h2 {
+    grid-column: 1;
+    grid-row: 3 / 3;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 3.4rem;
+}
+
+.me-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 400px;
+    width: 75%;
+}
+
 /* responsive */
-@media  (max-width:600px) {
+@media (max-width:600px) {
     .dessin {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media  (max-width:768px) {
+@media (max-width:768px) {
     .art-container {
         margin-left: auto;
         margin-right: auto;
@@ -496,79 +635,27 @@ footer a:hover {
         margin-top: 50px;
     }
 
+    .me-container h2 {
+        grid-column: 1;
+        grid-row: 4 / 4;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .me-explain-2 {
+        grid-column: 1;
+        grid-row: 3 / 3;
+    }
+
+    .testimony-one {
+        grid-column: 1;
+        grid-row: 5 / 5;
+    }
+
+    .testimony-two {
+        grid-column: 1;
+        grid-row: 6 / 6;
+    }
 }
-
-/* mairie */
-.bg-me {
-    background-image: url(img/bg_mairie.png);
-    font-family: "Barrio", sans-serif;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    overflow-x: hidden;
-    background-position: center top;    
-}
-
-
-
-
-.me-explain-1 {
-    padding: 50px;
-    border-radius: 10px;
-    /* padding: 10px; */
-    /* background-color: rgb(214, 196, 196); */
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-    font-family: "Pompiere", sans-serif;
-    font-weight: bold;
-    margin-bottom: 100px;
-    grid-column: 1;
-    grid-row: 1 / 3;
-    margin-left: 100px;
-    background-blend-mode: soft-light;
-    font-size: 1.4rem;
-    background-image: url("img/feuille_me.png");
-    background-repeat: no-repeat; 
-    background-size: 150%;
-    height: auto;
-    background-position: center -50px;
-}
-
-.me-explain-2 {
-    padding: 50px;
-    border-radius: 10px;
-    /* padding: 10px; */
-    /* background-color: rgb(214, 196, 196); */
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-    font-family: "Pompiere", sans-serif;
-    font-weight: bold;
-    margin-bottom: 100px;
-    grid-column: 2;
-    grid-row: 1 / 3;
-    margin-left: 100px;
-    background-blend-mode: soft-light;
-    font-size: 1.4rem;
-    background-image: url("img/feuille_me.png");
-    background-repeat: no-repeat; 
-    background-size: 150%;
-    height: auto;
-    background-position: center -50px;
-}
-
-.me-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    grid-auto-rows: minmax(100px, auto);
-    margin-bottom: 400px;
-}
-
-
-
-
